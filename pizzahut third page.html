@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Pizzahut third page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+    <style>
+                .tablink {
+                    background-color: white;
+        color: black;
+        float: Center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 20%;
+        margin-left: 80px;
+        }
+
+                #footer-sidebar h4{
+            font-size: 18px;
+            margin-left: 85px;
+            margin-top: 40px;
+            color: #e9ebee;
+                }
+
+                #footer-sidebar li{
+                list-style-type: none;
+                 margin-left: 50px;
+                 margin-right: 50px;
+                }
+
+                #footer-sidebar li a{
+                color: #e9ebee;
+                font-size: 13px;
+                }
+
+
+
+    </style>
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div class="container-fluid">
+        <div class="row" >
+            <img src="documents/pizzahut/pizzahut logo.png" width="130px" style="margin-top: 30px; margin-left: 100px; margin-bottom: 50px;" alt=" pizzahut logo">
+        </div>
+
+         <div class="row" style="border: 2px solid black;">
+             <nav class="navbar navbar-expand navbar-brand " >
+                <button class="tablink" onclick="openPage('Pizzas', this, 'pizzas')" style="background-image: url(documents/pizzahut/pizzahut\ 37.jpg); color: white;" ><b>Pizzas</b></button>
+                <button class="tablink" onclick="openPage('Sides', this, 'Sides')" id="defaultOpen"><b>Sides</b></button>
+                <button class="tablink" onclick="openPage('Desserts', this, 'Desserts')"><b>Desserts</b></button>
+                <button class="tablink" onclick="openPage('Drinks', this, 'Drinks')"><b>Drinks</b></button>
+                <button class="tablink" onclick="openPage('Deals', this, 'Deals')" ><b>Deals</b></button>
+             </nav>
+         </div>
+    </div>
+
+    <div id="Home" class="tabcontent"></div>
+
+                <div class="container-fluid" style="background-image: url(documents/pizzahut/pizzahut\ 6.jpg);">
+                    
+                    <div>
+                        <h3 style="padding-top: 30px; text-align: center; color: black;"> <b>Our Pizzas</b></h3>
+                        <p style="margin-top: 30px; margin-bottom: 30px; color: black; text-align: center; ">Explore our great range of pizza recipes from the Pizza Hut pizza menu.</p>
+                    </div>
+
+                    <!-- Row 1 -->
+
+                    <div class="row">
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white; margin-bottom: 20px;">
+                            <img src="documents/pizzahut/pizzahut 38.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <h5 style="margin-top: 10px; margin-bottom: 20px;">Momo Mia Pizza-Veg</h5>
+                                    <p style="margin-bottom: 55px;">Delicious meal for 2 with great choice of pizzas and signature crusts with pepsi.</p>
+                                    <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white">
+                            <img src="documents/pizzahut/pizzahut 39.jpg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                <div class="card-text">
+                                    <h5 style="margin-top: 10px; margin-bottom: 20px;">Momo Mia Pizza Non-Veg Pizza</h5>
+                                    <p style="margin-bottom: 30px;">Limited time offer,chose your 2 favourite pizzas and get pepsi free</p>
+                                    <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white">
+                            <img src="documents/pizzahut/pizzahut 40.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <h5 style="margin-top: 10px; margin-bottom: 20px;">Margherita</h5>
+                                    <p style="margin-bottom: 53px;">Avail 50% off ao another <br> pizzas</p> 
+                                    <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white">
+                            <img src="documents/pizzahut/pizzahut 41.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <h5 style="margin-top: 10px; margin-bottom: 20px;">Tandoori Paneer</h5>
+                                    <p style="margin-bottom: 55px;">Choose any 2 of your favorite medium pizza</p>
+                                    <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+
+                <!-- Row 2 -->
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white; margin-bottom: 20px;">
+                        <img src="documents/pizzahut/pizzahut 42.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Veggie Supreme</h5>
+                                <p style="margin-bottom: 55px;">Delicious meal for 2 with great choice of pizzas and signature crusts with pepsi</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 43.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Double Paneer Supreme</h5>
+                                    <p style="margin-bottom: 30px;">Limited time offer,chose your 2 favourite pizzas and get pepsi free</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 44.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Veg Kabab Surprize</h5>
+                                <p style="margin-bottom: 53px;">Avail 50% off ao another <br> pizzas</p> 
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white">
+                            <img src="documents/pizzahut/pizzahut 45.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Chicken Supreme</h5>
+                                <p style="margin-bottom: 55px;">Choose any 2 of your favorite medium pizza</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Row 3 -->
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white; margin-bottom: 20px;">
+                        <img src="documents/pizzahut/pizzahut 46.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Chiken Tikka Supreme</h5>
+                                <p style="margin-bottom: 55px;">Delicious meal for 2 with great choice of pizzas and signature crusts with pepsi</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 47.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Triple Chicken Fest</h5>
+                                    <p style="margin-bottom: 30px;">Limited time offer,chose your 2 favourite pizzas and get pepsi free</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 48.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Chiken Tikkas</h5>
+                                <p style="margin-bottom: 53px;">Avail 50% off ao another <br> pizzas</p> 
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white">
+                            <img src="documents/pizzahut/pizzahut 49.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Double Chicken Sausage</h5>
+                                <p style="margin-bottom: 55px;">Choose any 2 of your favorite medium pizza</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 4 -->
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white; margin-bottom: 20px;">
+                        <img src="documents/pizzahut/pizzahut 50.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Momo Mia Pizza-Veg</h5>
+                                <p style="margin-bottom: 55px;">Delicious meal for 2 with great choice of pizzas and signature crusts with pepsi</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 51.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Momo Mia Pizza NonVeg Pizza</h5>
+                                    <p style="margin-bottom: 30px;">Limited time offer,chose your 2 favourite pizzas and get pepsi free</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 52.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Margherita</h5>
+                                <p style="margin-bottom: 53px;">Avail 50% off ao another <br> pizzas</p> 
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white">
+                            <img src="documents/pizzahut/pizzahut 53.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Chicken Sausage</h5>
+                                <p style="margin-bottom: 55px;">Choose any 2 of your favorite medium pizza</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 5 -->
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white; margin-bottom: 20px;">
+                        <img src="documents/pizzahut/pizzahut 54.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Corn &  Cheese</h5>
+                                <p style="margin-bottom: 55px;">Delicious meal for 2 with great choice of pizzas and signature crusts with pepsi</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 55.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Tandoori Onion</h5>
+                                    <p style="margin-bottom: 30px;">Limited time offer,chose your 2 favourite pizzas and get pepsi free</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 56.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Spicy Chicken Meat-Balls</h5>
+                                <p style="margin-bottom: 53px;">Avail 50% off ao another <br> pizzas</p> 
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white">
+                            <img src="documents/pizzahut/pizzahut 57.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Double Cheese</h5>
+                                <p style="margin-bottom: 55px;">Choose any 2 of your favorite medium pizza</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 6 -->
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white; margin-bottom: 20px;">
+                        <img src="documents/pizzahut/pizzahut 58.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Spiced Paneer</h5>
+                                <p style="margin-bottom: 55px;">Delicious meal for 2 with great choice of pizzas and signature crusts with pepsi</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 59.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Veggie Feast</h5>
+                                    <p style="margin-bottom: 30px;">Limited time offer,chose your 2 favourite pizzas and get pepsi free</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 60.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Veggie Tandoori</h5>
+                                <p style="margin-bottom: 53px;">Avail 50% off ao another <br> pizzas</p> 
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white">
+                            <img src="documents/pizzahut/pizzahut 61.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Corn & Chicken delight</h5>
+                                <p style="margin-bottom: 55px;">Choose any 2 of your favorite medium pizza</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 7 -->
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white; margin-bottom: 20px;">
+                        <img src="documents/pizzahut/pizzahut 62.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Chicken Peproni</h5>
+                                <p style="margin-bottom: 55px;">Delicious meal for 2 with great choice of pizzas and signature crusts with pepsi</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 64.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Chicken Sausage</h5>
+                                    <p style="margin-bottom: 30px;">Limited time offer,chose your 2 favourite pizzas and get pepsi free</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <div  class="card" style="background-color:white">
+                        <img src="documents/pizzahut/pizzahut 64.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Cheese and corn</h5>
+                                <p style="margin-bottom: 53px;">Avail 50% off ao another <br> pizzas</p> 
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div  class="card" style="background-color:white">
+                            <img src="documents/pizzahut/pizzahut 66.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                <h5 style="margin-top: 10px; margin-bottom: 20px;">Veggie Delight</h5>
+                                <p style="margin-bottom: 55px;">Choose any 2 of your favorite medium pizza</p>
+                                <button type="button" class="btn-lg btn-success" style="width: 230px;">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="footer-sidebar">
+                    <div class="row" style="background-color: #231f20; ">
+                      <div class="col" >
+                         <div class="footer-widget">
+                              <h4>Order Now</h4>
+                              <ul>
+                                <li><a href="" style="color: white;">Deals</a></li>
+                                <li><a href="">Pizza</a></li>
+                               <li><a href="">Sides</a></li>
+                                <li><a href="">Drinks</a></li>
+                                <li><a href="">Desserts</a></li>
+                              </ul>
+                        </div>
+                      </div>
+        
+                      <div class="col">
+                        <div class="footer-widget">
+                              <h4>ABOUT</h4>
+                              <ul>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Contactless delivery</a></li>
+                                <li><a href="">Nutrition</a></li>
+                              </ul>
+                        </div>
+                      </div>
+        
+                      <div class="col">
+                        <div class="footer-widget">
+                              <h4>Our Policies</h4>
+                              <ul>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Responsible disclosure</a></li>
+                                <li><a href="">FAQs & Help</a></li>
+                              </ul>
+                        </div>
+                      </div>
+        
+                      <div class="col">
+                        <div class="footer">
+                              <h4>Visit Pizza Hut</h4>
+                              <ul>
+                                <li><a href=""> Locate a store </a></li>
+                                <li><a href=""> Global Blog </a></li>
+                                
+                              </ul>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="row" style="background-color: #231f20; ">
+                      <div class="col" style="margin-top: 20px; margin-left: 500px; margin-bottom: 30px;">
+                        <img src="documents/2 app_store dom.png" width="160px"  alt="">
+                        <img src="documents/play_store dom.png" width="160px"  alt="">
+                      </div>
+                    </div>
+        
+                   <div class="row" style="background-color:#231f20; ">
+                      <div class="col-4" style="margin-left: 85px; ">
+                         <p style="color: #e9ebee;">Help us in serving you better <button type="button" class="btn btn-white btn-lg" style="background-color: #e9ebee; margin-left: 20px; color: black;" > Give Feedback </button> </p>
+                      </div>
+        
+                          <div class="col-4"  >
+                              <h4 style="color: #e9ebee; margin-top: -5px; margin-left: 272px;">Follow Us</h4>
+                                  <a href="" > <i class='fab fa-facebook-f' style="color: #e9ebee; font-size: 23px; margin-left: 250px; margin-right: 10px;"></i> </a>
+                                  <a href=""> <i class='fab fa-twitter' style="color: #e9ebee; font-size: 23px; margin-right: 8px;"></i> </a>
+                                  <a href=""> <i class="fab fa-instagram" style="color: #e9ebee; font-size: 23px; margin-right: 8px;"></i> </a>
+                                  <a href=""> <i class="fab fa-youtube" style="color: #e9ebee; font-size: 23px; margin-right: 8px;"></i> </a>
+                            </div>
+                  </div>
+        
+                  <div class="row" style="background-color:#231f20 ;">
+                    <p style=" font-size: 10px; font-family:sans-serif ; color:#e9ebee;  text-align: center; margin-left: 220px;">
+                      Order a delicious pizza on the go, anywhere, anytime. Pizza Hut is happy to assist you with your home delivery. Every time you order, you get a hot and fresh pizza delivered at your doorstep in less than 
+                      <br>thirty minutes. *T&C Apply.
+                      <br>Hurry up and place your order now!
+        
+                      <br>© 2021 Pizza Hut India. All rights reserved. License Number: 10017011004220
+                    </p>
+                    
+                  </div>
+                  
+                </div>
+                </div>
+            </div>
+  </body>
+</html>

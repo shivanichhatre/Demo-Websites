@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>pizzahut seventh page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+      <style>
+        .map-container{
+  overflow:hidden;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+      </style>
+  </head>
+  <body style="background-image: url(documents/pizzahut/pizzahut\ 6.jpg);">
+      
+   <div class="container-fluid" >
+
+      <div class="row">
+        <img src="documents/pizzahut/pizzahut logo.png" width="250px"  style="margin-left: 120px; margin-top: 20px;" alt="">
+        <hr class="solid " style=" background-color: black; width: 1450px; " >
+    </div>
+
+    <div class="row">
+      <div class="col-3" style="margin-left: 100px;">
+        <div class="card" style="width: 350px; height: 350px; background-color: white;">
+          <div class="card-body">
+              <h4>  PIZZA HUT</h4>
+              <hr class="solid bg-success" >
+              <p>  Locate the nearest restaurant(s)</p>
+              <button type="button" class="btn btn-success">
+                Search Nearby
+              </button>
+
+              <button type="button" class="btn" style="margin-left: 20px; background-color: white;">
+                Advanced Search
+              </button>
+
+              <form action="" style="margin-top: 15px;">
+                <div class="form">
+                  <input type="location" class="form-control" id="location" placeholder="Search nearby restaurants by locality" name="E-mail id">
+                  <button type="button" class="btn-success"  style=" width: 100px; margin-top: 10px; margin-left: 200px;">
+                    <i class="fa fa-search" style="font-size: 15px; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px;"> Search</i>
+                  </button>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" style="margin-left: 50px; ">
+        <img src="documents/pizzahut/pizzahut  121.jpg" width="750px" height="350px" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+        <h5 style=" margin-top:20px; margin-left: 120px; margin-bottom: 20px; width: 1130px; background-color: #c51230; color: white; padding-bottom: 8px; padding-top: 8px; padding-left: 20px;"> <b> Pizza Hut Stores - Find Pizza near you! </b> </h5>
+    </div>
+
+    <div class="row">
+      <div class="col-3" style="margin-left: 80px; margin-bottom: 30px;">
+         <div id="search-bar" data-spy="scroll" class="col-3" style=" height: 480px;">
+          <ul style="list-style-type: none; width: 350px; height: 600px; overflow-y:scroll;>
+            <li style="list-style: none;">
+             <div class="card" style="width: 320px; height: 310px; margin-bottom: 50px; background-color: white;">
+               <div class="card-body">
+                 <p style="color: red; "> <i class="fa fa-map-signs"></i> Pizza Hut</p>
+                 <hr class="solid">
+                 <p style="margin-top: 0px; font-size: 15px;"> <i class="fa fa-briefcase" ></i> Janpath</p>
+                 <p style="font-size: 15px;"> <i class="fa fa-map-marker"></i>
+                   Shop No 58 <br> Janpath <br> New Delhi-110001</p>
+                 <p style="font-size: 15px;"> <i class="fa fa-phone"></i>
+                  18002022022</p>
+                 <p font-size: 15px;> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  Open until 11:00 PM</p>
+                 <p style="margin-top: 0px;  font-size: 15px;"> <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                   Takeaway | 
+                  Delivery  |
+                  Dine In</p>
+  
+                  <div class="btn-group btn-group-lg" style="width: 320px; height: 30px; margin-left: -20px; margin-top: 0px;">
+  
+                    <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 15px; padding-right: 15px; padding-bottom: 10px;" > <i class="fa fa-map-marker"
+                        style="font-size: 20px; "></i> MAP </button>
+                    <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;"> <i class="fa fa-globe" style="font-size: 15px;">DETAILS</i></button>
+                    <button type="button" class="btn btn-success" style="font-size: 15px; width: 125px;" ><i class="fa fa-shopping-cart">ORDER</i></button>
+                      
+                  </div>
+            
+                </div>
+             </div>
+            </li>
+
+            <li style="list-style: none;">
+              <div class="card" style="width: 320px; height: 310px; margin-bottom: 50px; background-color: white;">
+                <div class="card-body">
+                  <p style="color: red; "> <i class="fa fa-map-signs"></i> Pizza Hut</p>
+                  <hr class="solid">
+                  <p style="margin-top: 0px; font-size: 15px;"> <i class="fa fa-briefcase" ></i> Janpath</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-map-marker"></i>
+                    Shop No 58 <br> Janpath <br> New Delhi-110001</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-phone"></i>
+                   18002022022</p>
+                  <p font-size: 15px;> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                   Open until 11:00 PM</p>
+                  <p style="margin-top: 0px;  font-size: 15px;"> <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                    Takeaway | 
+                   Delivery  |
+                   Dine In</p>
+   
+                   <div class="btn-group btn-group-lg" style="width: 320px; height: 30px; margin-left: -20px; margin-top: 0px;">
+   
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 15px; padding-right: 15px; padding-bottom: 10px;" > <i class="fa fa-map-marker"
+                         style="font-size: 20px; "></i> MAP </button>
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;"> <i class="fa fa-globe" style="font-size: 15px;">DETAILS</i></button>
+                     <button type="button" class="btn btn-success" style="font-size: 15px; width: 125px;" ><i class="fa fa-shopping-cart">ORDER</i></button>
+                       
+                   </div>
+             
+                 </div>
+              </div>
+             </li>
+
+             <li style="list-style: none;">
+              <div class="card" style="width: 320px; height: 310px; margin-bottom: 50px; background-color: white;">
+                <div class="card-body">
+                  <p style="color: red; "> <i class="fa fa-map-signs"></i> Pizza Hut</p>
+                  <hr class="solid">
+                  <p style="margin-top: 0px; font-size: 15px;"> <i class="fa fa-briefcase" ></i> Janpath</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-map-marker"></i>
+                    Shop No 58 <br> Janpath <br> New Delhi-110001</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-phone"></i>
+                   18002022022</p>
+                  <p font-size: 15px;> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                   Open until 11:00 PM</p>
+                  <p style="margin-top: 0px;  font-size: 15px;"> <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                    Takeaway | 
+                   Delivery  |
+                   Dine In</p>
+   
+                   <div class="btn-group btn-group-lg" style="width: 320px; height: 30px; margin-left: -20px; margin-top: 0px;">
+   
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 15px; padding-right: 15px; padding-bottom: 10px;" > <i class="fa fa-map-marker"
+                         style="font-size: 20px; "></i> MAP </button>
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;"> <i class="fa fa-globe" style="font-size: 15px;">DETAILS</i></button>
+                     <button type="button" class="btn btn-success" style="font-size: 15px; width: 125px;" ><i class="fa fa-shopping-cart">ORDER</i></button>
+                       
+                   </div>
+             
+                 </div>
+              </div>
+             </li>
+
+             <li style="list-style: none;">
+              <div class="card" style="width: 320px; height: 310px; margin-bottom: 50px; background-color: white;">
+                <div class="card-body">
+                  <p style="color: red; "> <i class="fa fa-map-signs"></i> Pizza Hut</p>
+                  <hr class="solid">
+                  <p style="margin-top: 0px; font-size: 15px;"> <i class="fa fa-briefcase" ></i> Janpath</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-map-marker"></i>
+                    Shop No 58 <br> Janpath <br> New Delhi-110001</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-phone"></i>
+                   18002022022</p>
+                  <p font-size: 15px;> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                   Open until 11:00 PM</p>
+                  <p style="margin-top: 0px;  font-size: 15px;"> <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                    Takeaway | 
+                   Delivery  |
+                   Dine In</p>
+   
+                   <div class="btn-group btn-group-lg" style="width: 320px; height: 30px; margin-left: -20px; margin-top: 0px;">
+   
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 15px; padding-right: 15px; padding-bottom: 10px;" > <i class="fa fa-map-marker"
+                         style="font-size: 20px; "></i> MAP </button>
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;"> <i class="fa fa-globe" style="font-size: 15px;">DETAILS</i></button>
+                     <button type="button" class="btn btn-success" style="font-size: 15px; width: 125px;" ><i class="fa fa-shopping-cart">ORDER</i></button>
+                       
+                   </div>
+             
+                 </div>
+              </div>
+             </li>
+
+             <li style="list-style: none;">
+              <div class="card" style="width: 320px; height: 310px; margin-bottom: 50px; background-color: white;">
+                <div class="card-body">
+                  <p style="color: red; "> <i class="fa fa-map-signs"></i> Pizza Hut</p>
+                  <hr class="solid">
+                  <p style="margin-top: 0px; font-size: 15px;"> <i class="fa fa-briefcase" ></i> Janpath</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-map-marker"></i>
+                    Shop No 58 <br> Janpath <br> New Delhi-110001</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-phone"></i>
+                   18002022022</p>
+                  <p font-size: 15px;> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                   Open until 11:00 PM</p>
+                  <p style="margin-top: 0px;  font-size: 15px;"> <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                    Takeaway | 
+                   Delivery  |
+                   Dine In</p>
+   
+                   <div class="btn-group btn-group-lg" style="width: 320px; height: 30px; margin-left: -20px; margin-top: 0px;">
+   
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 15px; padding-right: 15px; padding-bottom: 10px;" > <i class="fa fa-map-marker"
+                         style="font-size: 20px; "></i> MAP </button>
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;"> <i class="fa fa-globe" style="font-size: 15px;">DETAILS</i></button>
+                     <button type="button" class="btn btn-success" style="font-size: 15px; width: 125px;" ><i class="fa fa-shopping-cart">ORDER</i></button>
+                       
+                   </div>
+             
+                 </div>
+              </div>
+             </li>
+
+             <li style="list-style: none;">
+              <div class="card" style="width: 320px; height: 310px; margin-bottom: 50px; background-color: white;">
+                <div class="card-body">
+                  <p style="color: red; "> <i class="fa fa-map-signs"></i> Pizza Hut</p>
+                  <hr class="solid">
+                  <p style="margin-top: 0px; font-size: 15px;"> <i class="fa fa-briefcase" ></i> Janpath</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-map-marker"></i>
+                    Shop No 58 <br> Janpath <br> New Delhi-110001</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-phone"></i>
+                   18002022022</p>
+                  <p font-size: 15px;> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                   Open until 11:00 PM</p>
+                  <p style="margin-top: 0px;  font-size: 15px;"> <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                    Takeaway | 
+                   Delivery  |
+                   Dine In</p>
+   
+                   <div class="btn-group btn-group-lg" style="width: 320px; height: 30px; margin-left: -20px; margin-top: 0px;">
+   
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 15px; padding-right: 15px; padding-bottom: 10px;" > <i class="fa fa-map-marker"
+                         style="font-size: 20px; "></i> MAP </button>
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;"> <i class="fa fa-globe" style="font-size: 15px;">DETAILS</i></button>
+                     <button type="button" class="btn btn-success" style="font-size: 15px; width: 125px;" ><i class="fa fa-shopping-cart">ORDER</i></button>
+                       
+                   </div>
+             
+                 </div>
+              </div>
+             </li>
+
+             <li style="list-style: none;">
+              <div class="card" style="width: 320px; height: 310px; margin-bottom: 50px; background-color: white;">
+                <div class="card-body">
+                  <p style="color: red; "> <i class="fa fa-map-signs"></i> Pizza Hut</p>
+                  <hr class="solid">
+                  <p style="margin-top: 0px; font-size: 15px;"> <i class="fa fa-briefcase" ></i> Janpath</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-map-marker"></i>
+                    Shop No 58 <br> Janpath <br> New Delhi-110001</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-phone"></i>
+                   18002022022</p>
+                  <p font-size: 15px;> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                   Open until 11:00 PM</p>
+                  <p style="margin-top: 0px;  font-size: 15px;"> <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                    Takeaway | 
+                   Delivery  |
+                   Dine In</p>
+   
+                   <div class="btn-group btn-group-lg" style="width: 320px; height: 30px; margin-left: -20px; margin-top: 0px;">
+   
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 15px; padding-right: 15px; padding-bottom: 10px;" > <i class="fa fa-map-marker"
+                         style="font-size: 20px; "></i> MAP </button>
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;"> <i class="fa fa-globe" style="font-size: 15px;">DETAILS</i></button>
+                     <button type="button" class="btn btn-success" style="font-size: 15px; width: 125px;" ><i class="fa fa-shopping-cart">ORDER</i></button>
+                       
+                   </div>
+             
+                 </div>
+              </div>
+             </li>
+
+             <li style="list-style: none;">
+              <div class="card" style="width: 320px; height: 310px; margin-bottom: 50px; background-color: white;">
+                <div class="card-body">
+                  <p style="color: red; "> <i class="fa fa-map-signs"></i> Pizza Hut</p>
+                  <hr class="solid">
+                  <p style="margin-top: 0px; font-size: 15px;"> <i class="fa fa-briefcase" ></i> Janpath</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-map-marker"></i>
+                    Shop No 58 <br> Janpath <br> New Delhi-110001</p>
+                  <p style="font-size: 15px;"> <i class="fa fa-phone"></i>
+                   18002022022</p>
+                  <p font-size: 15px;> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                   Open until 11:00 PM</p>
+                  <p style="margin-top: 0px;  font-size: 15px;"> <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                    Takeaway | 
+                   Delivery  |
+                   Dine In</p>
+   
+                   <div class="btn-group btn-group-lg" style="width: 320px; height: 30px; margin-left: -20px; margin-top: 0px;">
+   
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 15px; padding-right: 15px; padding-bottom: 10px;" > <i class="fa fa-map-marker"
+                         style="font-size: 20px; "></i> MAP </button>
+                     <button type="button" class="btn bg-secondary" style="  font-size: 15px; color: white;  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;"> <i class="fa fa-globe" style="font-size: 15px;">DETAILS</i></button>
+                     <button type="button" class="btn btn-success" style="font-size: 15px; width: 125px;" ><i class="fa fa-shopping-cart">ORDER</i></button>
+                       
+                   </div>
+             
+                 </div>
+              </div>
+             </li>
+          </ul>
+         </div>
+
+
+          <ul class="pagination" style="margin-top: 130px; margin-left: 70px;">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item "><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+
+
+      </div>
+
+      <div class="col-4">
+        <div id="map-container-google-1" class="map-container" style="height: 600px; width: 730px; margin-left: 80px;">
+          <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" style="background-color:  #000; margin-top: 80px;">
+      <div class="row">
+        <p style="color: white; margin-top: 20px;  margin-left: 80px;">State:</p> 
+          
+         <nav class="navbar-expand"  >
+            <ul class="navbar-nav" style="list-style: none; margin-left: 80px; ">
+              <li><a href="" style="color: white; font-size: 13px;">Andhra Pradesh / </a></li>
+              <li><a href="" style="color: white; font-size: 13px;">Bihar / </a></li>
+              <li><a href="" style="color: white; font-size: 13px;">Chandigarh / </a></li>
+              <li><a href="" style="color: white; font-size: 13px;">Chattisgarh / </a></li>
+              <li><a href="" style="color: white; font-size: 13px;">Assam / </a></li>
+              <li><a href="" style="color: white; font-size: 13px;"> View More...</a></li>
+            </ul>
+         <hr class="solid bg-light" style="width: 1250px; margin-left: 30px ;" >
+
+         </nav>
+
+        
+      </div>
+
+      <div class="row" style="background-color: #000; ">
+        <div class="footer-widget">
+          <h5 style="color: white; margin-left: 80px; font-size: 15px;"> <b> © Copyright 2021, Pizza Hut International, LLC </b> </h5>
+          <p style="color: orange; margin-left:80px ;">Terms & Conditions</p>
+        </div>
+         <hr class="solid" style="color: white;">
+        <div class="footer-widget" style=" margin-left: 250px;" >
+          <nav class="navbar-expand">
+            <ul class="navbar-nav" style="list-style: none; ">
+              <li><a href="" > <i class='fa fa-facebook-f' style="color:#e9ebee; font-size: 28px; margin-right: 8px; "></i> </a></li>
+              <li><a href="" > <i class='fa fa-twitter' style="color: #e9ebee; font-size: 28px; margin-right: 8px; "></i> </a></li>
+              <li><a href="" > <i class='fa fa-youtube-play' style="color: #e9ebee; font-size: 28px; margin-right: 8px;"></i> </a></li>
+              <li><a href="" > <i class='fa fa-instagram' style="color: #e9ebee; font-size: 28px; margin-right: 8px;"></i> </a></li>
+              <li><a href="" > <i class='fa fa-google' style="color: #e9ebee; font-size: 28px; margin-right: 8px;"></i> </a></li>
+              <li><a href="" > <i class='fa fa-whatsapp' style="color: #e9ebee; font-size: 28px; margin-right: 8px;"></i> </a></li>
+
+            </ul>
+          </nav>
+          
+        </div>
+
+        <div class="footer-widget" style="margin-left: 200px; margin-right: 50px; color: white;">
+
+          <p>Powered by: <b style="font-size: 22px;"> Single</b> <span style="color: blue; font-size: 22px;">Interface </span></p>
+        </div>
+
+      </div>
+    </div>
+   </div>  
+  </body>
+</html>
+
+
+
+
+

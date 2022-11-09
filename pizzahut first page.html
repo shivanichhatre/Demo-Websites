@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Pizzahut Front Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/pizzahut1.css">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+    <div class="container-fluid">
+        <div class="row">
+             <nav>
+                 <img src="documents/pizzahut/pizzahut logo.png" width="155px" style="margin-left: 130px; margin-top: 20px;" alt="">
+                 <a href="" style="margin-top: 50px; margin-left: 850px; color: gray;">Sign in</a>
+             </nav>
+        </div>
+
+        <div id="front-image">
+             <img src="documents/pizzahut/pizzahut 2.jpg" class=" img-fluid" style="margin-top: 15px;" alt="">
+
+              <div id="box" class="shadow p-4 mb-4 bg-white" >
+                   <button class="tablink" onclick="openPage('Delivery', this, 'Delivery')"> Delivery</button>
+    
+                  <button class="tablink"  style="margin-left: 10px;" onclick="openPage('Takeaway', this, 'Takeaway')" id="defaultOpen">Takeaway</button>
+                <div>
+    
+                  <div id="Delivery" class="tabcontent" style="background-color: white; margin-bottom: 0px;">
+                    <h5>CONTACTLESS DELIVERY</h5>
+                    <p>Contactless Delivery is now available!</p>
+                    <form autocomplete="off" action="/action_page.php" style="padding: 5px;">
+                      <div class="autocomplete" style="width:900px; ">
+                        <input id="myInput" type="text" name="location" placeholder="Enter your location for delivery">
+                      </div>
+                      
+                    </form>
+                  </div>
+                  
+                  <div id="Takeaway" class="tabcontent" style="background-color:white; margin-top: 0px; ">
+                    <h5>CONTACT LESS TAKEAWAY IS NOW AVAILABLE</h5>
+                    <p>Order Online & collect safely.</p> 
+                  </div>
+                 </div>
+              </div>
+        </div>
+
+        <div>
+           <h3 style="text-align: center; margin-top: 150px; margin-bottom: 30px;"><b> <hr style="width: 150px; "> Our Most Popular Deals</b></h3>
+           <img src="documents/pizzahut/pizzahut 3.jpg" style="margin-left: 150px;" width="500px"  alt="">
+           <img src="documents/pizzahut/pizzahut4.jpg" style="margin-left: 8px;" width="500px" alt="">
+
+           <div >
+            <p style="font-size: 10px; text-align: center; background-color: rgb(148, 128, 128); height: 13px; width: 500px;  margin-left: 150px;">Deal may vary by location, only at participating stores, excluding dine-in restaurants, T&Cs apply</p>
+            <p style="font-size: 10px; text-align: center; background-color: rgb(148, 128, 128); height: 13px; width: 500px; margin-top: -30px; margin-left: 663px; ">Deal may vary by location, only at participating stores, excluding dine-in restaurants, T&Cs apply</p>
+           </div>
+           <button type="button" class="btn btn-success" style="width: 1000px; height: 50px; margin-top: 30px; margin-left: 160px; margin-bottom: 80px;  color: white; "> <b> View all deals </b> </button>
+        </div>
+        
+
+        <div id="footer-sidebar">
+            <div class="row" style="background-color: #231f20; ">
+              <div class="col" >
+                 <div class="footer-widget">
+                      <h4>Order Now</h4>
+                      <ul>
+                        <li><a href="">Deals</a></li>
+                        <li><a href="">Pizza</a></li>
+                       <li><a href="">Sides</a></li>
+                        <li><a href="">Drinks</a></li>
+                        <li><a href="">Desserts</a></li>
+                      </ul>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="footer-widget">
+                      <h4>ABOUT</h4>
+                      <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contactless delivery</a></li>
+                        <li><a href="">Nutrition</a></li>
+                      </ul>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="footer-widget">
+                      <h4>Our Policies</h4>
+                      <ul>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Responsible disclosure</a></li>
+                        <li><a href="">FAQs & Help</a></li>
+                      </ul>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="footer">
+                      <h4>Visit Pizza Hut</h4>
+                      <ul>
+                        <li><a href=""> Locate a store </a></li>
+                        <li><a href=""> Global Blog </a></li>
+                        
+                      </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="row" style="background-color: #231f20; ">
+              <div class="col" style="margin-top: 20px; margin-left: 500px; margin-bottom: 30px;">
+                <img src="documents/2 app_store dom.png" width="160px"  alt="">
+                <img src="documents/play_store dom.png" width="160px"  alt="">
+              </div>
+            </div>
+
+           <div class="row" style="background-color:#231f20; ">
+              <div class="col-4" style="margin-left: 85px; ">
+                 <p style="color: #e9ebee;">Help us in serving you better <button type="button" class="btn btn-white btn-lg" style="background-color: #e9ebee; margin-left: 20px; color: black;" > Give Feedback </button> </p>
+              </div>
+
+                  <div class="col-4"  >
+                      <h4 style="color: #e9ebee; margin-top: -5px; margin-left: 272px;">Follow Us</h4>
+                          <a href="" > <i class='fab fa-facebook-f' style="color: #e9ebee; font-size: 23px; margin-left: 250px; margin-right: 10px;"></i> </a>
+                          <a href=""> <i class='fab fa-twitter' style="color: #e9ebee; font-size: 23px; margin-right: 8px;"></i> </a>
+                          <a href=""> <i class="fab fa-instagram" style="color: #e9ebee; font-size: 23px; margin-right: 8px;"></i> </a>
+                          <a href=""> <i class="fab fa-youtube" style="color: #e9ebee; font-size: 23px; margin-right: 8px;"></i> </a>
+                    </div>
+          </div>
+
+          <div class="row" style="background-color:#231f20 ;">
+            <p style=" font-size: 10px; font-family:sans-serif ; color:#e9ebee;  text-align: center; margin-left: 220px;">
+              Order a delicious pizza on the go, anywhere, anytime. Pizza Hut is happy to assist you with your home delivery. Every time you order, you get a hot and fresh pizza delivered at your doorstep in less than 
+              <br>thirty minutes. *T&C Apply.
+              <br>Hurry up and place your order now!
+
+              <br>© 2021 Pizza Hut India. All rights reserved. License Number: 10017011004220
+            </p>
+            
+          </div>
+          
+        </div>
+    </div>
+  </body>
+</html>
