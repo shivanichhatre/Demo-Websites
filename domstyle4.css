@@ -1,0 +1,49 @@
+#search-bar{
+    margin-left: 120px;
+}
+
+#search-bar a{
+    font-size: 13px;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+#shop h5{
+    margin-left: 150px;
+    color: red;
+    font-size: 25px;
+    margin-bottom: -2px;
+}
+
+#shop p{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#shop img{
+    margin-top: -210px;
+}
+
+
+
+#offers{
+    margin-left: 5px;
+    margin-right: 40px;
+
+}
+
+#footer-sidebar h5{
+    color: white;
+}
+
+#footer-sidebar li{
+    list-style: none;
+}
+
+#footer-sidebar li a{
+    color: gray;
+    font-size: 13px;
+
+}

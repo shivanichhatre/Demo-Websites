@@ -1,0 +1,30 @@
+#top-menu{
+    background-color: #095c91;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#top-menu ul li a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+
+}
+
+#top-menu button{
+    margin-right: 1rem;
+}
+
+#bottom-menu{
+    background-color: #116faa;
+}
+
+#bottom-menu ul li a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 0.50rem;
+    padding-right: 0.50rem;
+}
+

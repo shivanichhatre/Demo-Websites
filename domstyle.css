@@ -1,0 +1,45 @@
+#menu ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0.75rem;
+    
+}
+
+#front-image h3{
+    margin-left: 100px;
+}
+
+#front-image p{
+    margin-left: 100px;
+}
+
+#front-image button{
+    margin-left: 100px;
+}
+
+
+#table TR th{
+    text-align: center;
+    padding-top: 30PX;
+}
+
+#table TR td{
+    text-align: center;
+}
+
+#footer-sidebar{
+    color: #526274;
+    background-color: darkslategray
+}
+
+#footer-sidebar li{
+    color: white;
+}
+
+#footer-sidebar a{
+    color: white;   
+}
+
+#footer-sidebar h4{
+    color: rgba(42, 99, 221, 0.568);
+}
+

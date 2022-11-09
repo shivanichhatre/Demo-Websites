@@ -1,0 +1,72 @@
+
+#top-menu{
+    color: white;
+    background-color: rgb(27, 93, 168);
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+
+#top-menu li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+
+#sidebutton{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    
+}
+
+#bottom-menu{
+    text-align: center;
+}
+
+#bottom-menu li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+#gift-vouchers {
+    
+    text-align: center;
+    
+}
+
+#gift-vouchers h4{
+    font-size: 20px;
+}
+
+#cover{
+     background-image: url(../documents/carouselbanner.png);
+     color: palevioletred;
+     text-align-last: center;
+}
+
+#Redeem{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align-last: center;
+}
+
+#Redeem h4{
+    color: rgb(28, 28, 134);
+}
+
+#text{
+    text-align-last: center;
+    margin-top: 2rem;
+}
+
+#footer{
+    margin-left: 1rem;
+    background-color: black;
+    
+}
+
+#footer li{
+    margin-left: 3rem;
+    
+}
