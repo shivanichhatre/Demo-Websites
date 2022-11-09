@@ -1,0 +1,15 @@
+.container{
+    border: 3px solid black;
+}
+.row{
+    border: 3px solid white;
+}
+.col{
+    border: 3px solid white;
+}
+.col-6{
+    border: 3px solid white;
+}
+.col-12{
+    border: 3px solid white;
+}
